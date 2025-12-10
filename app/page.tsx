@@ -133,7 +133,15 @@ const PaginaInicial = () =>{
               minRows={2}
               maxLength={53}
               placeholder="Texto de apresentação (Máximo 53 caracteres)"
-              style={{ width: '100%', border: '1px solid #ccc' }}
+              style={{ 
+                width: '100%',
+                padding: '8px 12px',      
+                borderRadius: '6px',
+                border: '1px solid #ccc',
+                fontSize: '14px',
+                lineHeight: 1.4,
+                resize: 'none',
+                boxSizing: 'border-box',}}
               value={texto}
               onBlur={verificarTexto}
               onChange={(e) => {
@@ -159,8 +167,7 @@ const PaginaInicial = () =>{
         </div>     
       </FormControl>
 
-      {alerta && <Box sx={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 1301,pointerEvents: 'none' }}>{alerta}</Box>}
-
+      {alerta && <Box sx={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 1301,pointerEvents: 'none', width: {xs: '90%',sm: '70%',md: '400px',},maxWidth: '400px',padding: 2 }}>{alerta}</Box>}
 
     </div>
   );
