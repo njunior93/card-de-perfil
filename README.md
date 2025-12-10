@@ -28,18 +28,22 @@
 git clone https://github.com/seu-usuario/seu-projeto.git
 ```
 
-1. Acessar a pasta do seu projeto
+2. Acessar a pasta do seu projeto:
+```bash 
 cd seu-projeto
-
-3. Instale as dependências
+```
+3. Instale as dependências:
+```bash
 npm install
-
-4. Execute o projeto
+```
+4. Execute o projeto:
+```bash
 npm run dev
-
-5. Acesse o link gerado
+```
+5. Acesse o link gerado:
+```bash
 Ex: http://localhost:3000
-
+```
 
 
 
