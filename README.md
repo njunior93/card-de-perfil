@@ -27,7 +27,7 @@
 ```bash
 git clone https://github.com/seu-usuario/seu-projeto.git
 
-2. Acessar a pasta do seu projeto
+1. Acessar a pasta do seu projeto
 cd seu-projeto
 
 3. Instale as dependências
