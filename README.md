@@ -1,6 +1,11 @@
 <h1>Desafio Frontend Junior - Card de Perfil</h1>
 <p>Projeto desenvolvido em Next.js que permite gerar um card de perfil personalizado.</p>
 
+## Funcionalidades
+<ul>
+  <li>Gerar card de perfil através de um preenchimento de formulário</li> 
+</ul>
+
 ## Tecnologias
 <ul>
   <li>Next.js 14</li> 
@@ -21,5 +26,19 @@
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-projeto.git
+
+2. Acessar a pasta do seu projeto
+cd seu-projeto
+
+3. Instale as dependências
+npm install
+
+4. Execute o projeto
+npm run dev
+
+5. Acesse o link gerado
+Ex: http://localhost:3000
+
+
 
 
